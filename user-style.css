@@ -1,57 +1,27 @@
 @-moz-document domain("news.ycombinator.com") {
-	* {
-		font-family: sans-serif !important;
-	}
-
-	td.title {
-		font-size: medium !important;
-	}
-
-	a {
-		color:#586e75 !important;
-	}
-
-	td.default a, td.title a:link, span.comment a:link {
-		color:#2aa198 !important;
-	}
-
-	.comment {
-		color:#586e75 !important;
-	}
-
-	font {
-		color:inherit !important;
-		font-family:inherit !important;
-		font-size:inherit !important;
-	}
-
-	td.title a:visited,  span.comment a:visited {
-		color:#b58900 !important;
-	}
-
-	span.yclinks a, td.default span.comhead a, td.subtext a, td.subtext span {
-		color:#586e75 !important;
-	}
-	
-	td.default span.comhead a, td.subtext a {
-		font-weight: bold;
-	}
-
-	body > center > table > tbody > tr:first-child > td {
-		background-color:#fdf6e3 !important;
-	}
-
-	body, 	body > center > table {
-		background-color: #eee8d5 !important;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	code, pre {
-		color:#2aa198 !important; background:#fdf6e3 !important;
-	}
-	
-	a:hover {
-		background:#fdf6e3 !important;
-	}
+  * {
+    color: #586e75 !important;
+    background-color: #eee8d5 !important;
+  }
+  body > center > table > tbody > tr:first-child * {
+    background-color: #fdf6e3 !important;
+  }
+  body > center > table > tbody > tr:first-child * a:hover {
+    background: #eee8d5 !important;
+  }
+  code, pre, input, textarea {
+    background: #fdf6e3 !important;
+  }
+  a {
+    color: #2aa198 !important;
+  }
+  .subtext a {
+    color: #586e75 !important;
+  }
+  a:visited, a:visited span {
+    color: #b58900 !important;
+  }
+  a:hover, a:hover span {
+    background: #fdf6e3 !important;
+  }
 }
